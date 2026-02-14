@@ -65,7 +65,7 @@ const Messagepage = () => {
               {errors.messages && (
                 <p className="error">{errors.messages.message}</p>
               )}
-              <button type="submit">Submit</button>
+              <button classname="cursor-pointer" type="submit">Submit</button>
             </form>
           </div>
         </div>
